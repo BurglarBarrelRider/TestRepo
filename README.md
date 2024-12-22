@@ -88,6 +88,8 @@ ERP Diagram is here:
 
 
 
+
+
 JAR file goes as follows:
 
 ![JAR screenshot](https://github.com/user-attachments/assets/defa7fbe-6cbb-4248-8524-132cdbc94d4b)
