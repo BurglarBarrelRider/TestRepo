@@ -86,6 +86,87 @@ ERP Diagram is here:
 ![image](https://github.com/user-attachments/assets/9fa75b98-7f69-466f-8c5a-6368bb864cb4)
 
 
+[Uploading coCREATE TABLE Surveys (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Questions (
+    id SERIAL PRIMARY KEY,
+    survey_id int not null
+    foreign key (survey_id) REFERENCES Surveys(id) ON DELETE CASCADE,
+    question_text TEXT NOT NULL
+);
+
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    surname VARCHAR(100) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    age INT NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+create table Responses (
+	id serial primary key,
+	question_id int not null,
+	user_response text not null,
+	foreign key (question_id) references Questions(id) on delete cascade
+);
+
+
+SELECT * FROM Surveys;
+SELECT * FROM Questions;
+SELECT * FROM users;
+
+-- Создание нового опроса:
+INSERT INTO Surveys (title) 
+VALUES ('Employee Satisfaction Survey');
+-- Добавление нового вопроса в опрос 
+INSERT INTO Questions (survey_id, question_text) 
+VALUES (1, 'How satisfied are you with your work-life balance?');
+-- Добавить нвоого пользователя
+INSERT INTO users (name, surname, age, email, password) 
+VALUES ('Mike', 'Tyson', 58, 'miketyson@gmail.com', 'ironmike');
+
+-- Получить все вопросы по айди опросника
+SELECT * FROM Questions WHERE survey_id = 1;
+
+-- Update: Редактирование данных 
+UPDATE Surveys
+SET title = 'Updated Customer Satisfaction Survey'
+WHERE id = 1;
+-- Обновить текст вопроса
+UPDATE Questions
+SET question_text = 'How satisfied are you with our customer support?'
+WHERE id = 1;
+-- Удаление конкретного опроса
+DELETE FROM Surveys
+WHERE id = 1;
+-- Удалить вопрос из опроса
+DELETE FROM Questions
+WHERE id = 1;
+
+
+
+INSERT INTO Surveys (title) 
+VALUES ('Customer Satisfaction Survey');
+SELECT * FROM Surveys WHERE title = 'Customer Satisfaction Survey';
+INSERT INTO Questions (survey_id, question_text) 
+VALUES (1, 'How satisfied are you with our product?');
+
+INSERT INTO users (name, surname, age, email, password) 
+VALUES ('John', 'Doe', 30, 'john.doe@example.com', 'password123');
+
+INSERT INTO users (name, surname, age, email, password) 
+VALUES 
+('sample', 'mcsample', 18, 'mcsample@gmail.com', 'sample');
+
+
+
+
+mmands.sql…]()
 
 
 
