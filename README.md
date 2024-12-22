@@ -85,6 +85,7 @@ UML Diagram here:
 ERP Diagram is here:
 ![image](https://github.com/user-attachments/assets/9fa75b98-7f69-466f-8c5a-6368bb864cb4)
 
+[commands.zip](https://github.com/user-attachments/files/18223061/commands.zip)
 
 
 JAR file goes as follows:
