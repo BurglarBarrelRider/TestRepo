@@ -1,4 +1,4 @@
-package org.example.surveysystem2;
+package org.example.surveysystem2.controller;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -7,7 +7,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.example.surveysystem2.Question;
 import org.example.surveysystem2.Survey;
-import org.example.surveysystem2.SurveyDAO;
+import org.example.surveysystem2.dao.SurveyDAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -49,9 +49,9 @@ public class HelloController {
 
     public HelloController() {
         try {
-            String url = "jdbc:postgresql://localhost:5432/surveydb";
+            String url = "jdbc:postgresql://localhost:5433/surveydb";
             String user = "postgres";
-            String password = "asykpaeva";
+            String password = "yourpassword";
             Connection connection = DriverManager.getConnection(url, user, password);
             surveyDAO = new SurveyDAO(connection);
         } catch (Exception e) {

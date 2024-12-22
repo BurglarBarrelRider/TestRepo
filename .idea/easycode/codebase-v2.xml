@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/org/example/surveysystem2/HelloApplication.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/HelloController.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/Question.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/Response.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/Survey.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/SurveyDAO.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/org/example/surveysystem2/UserController.java;C:/Users/user/IdeaProjects/testRepo/src/main/java/module-info.java;C:/Users/user/IdeaProjects/testRepo/pom.xml;C:/Users/user/IdeaProjects/testRepo/README.md" />
+  </component>
+</project>

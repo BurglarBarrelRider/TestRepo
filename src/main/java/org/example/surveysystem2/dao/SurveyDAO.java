@@ -1,8 +1,12 @@
-package org.example.surveysystem2;
+package org.example.surveysystem2.dao;
+
+import org.example.surveysystem2.Question;
+import org.example.surveysystem2.Survey;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class SurveyDAO {
     private Connection connection;

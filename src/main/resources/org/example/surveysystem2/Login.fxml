@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="270.0" style="-fx-border-color: CBEAA6; -fx-background-color: F3F9D2; -fx-border-width: 10; -fx-border-style: solid;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.surveysystem2.LoginController">
+    <children>
+        <Label fx:id="enterEmail" alignment="CENTER" layoutX="84.0" layoutY="81.0" prefHeight="23.0" prefWidth="103.0" style="-fx-border-color: #D7B29D;" text="Enter your email :" textAlignment="CENTER">
+            <font>
+                <Font name="Bodoni MT" size="12.0" />
+            </font></Label>
+        <Label fx:id="passwordLabel" alignment="CENTER" layoutX="78.0" layoutY="189.0" prefHeight="23.0" prefWidth="120.0" style="-fx-border-color: E8D2AE;" text="Enter your password : ">
+            <font>
+                <Font name="Baskerville Old Face" size="12.0" />
+            </font></Label>
+        <PasswordField fx:id="passwordField" layoutX="60.0" layoutY="232.0" />
+        <Separator layoutX="26.0" layoutY="170.0" prefWidth="200.0" />
+        <Button fx:id="loginButton" layoutX="108.0" layoutY="285.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="47.0" prefWidth="55.0" style="-fx-background-color: C2A83E;" text="Login" />
+        <Label fx:id="errorLabel" layoutX="38.0" layoutY="332.0" prefHeight="47.0" prefWidth="200.0" />
+        <TextField fx:id="emailField" layoutX="60.0" layoutY="122.0" />
+        <Label layoutX="119.0" layoutY="338.0" />
+    </children>
+</Pane>
