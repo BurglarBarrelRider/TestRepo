@@ -68,7 +68,6 @@ Defined project scope: Survey Management System for creating, editing, viewing, 
 Roles assigned:
 Kyial: UI design for the survey management page started. 
 Baiel: QUestion, Response, Survey created.
-Aivar: overall project plan
 
 Week 2: Feature Development & Integration
 Date: November 29, 2024
@@ -76,19 +75,18 @@ Summary:
 
 Kyial: Forked the project, completed the UI for creating and viewing surveys. Backend setup for CRUD operations. And Controller.
 Baiel: Writing documentation, minor changes to the code (Controller, and UI) and fixing errors (e.g. problems with merge, pull requests and javafx).
-Aivar: began testing the code, presentation and functionality overall
 
 
-UML Diagram here: 
+# **UML Diagram here:** 
 ![diagram](https://github.com/user-attachments/assets/f24a0e97-0703-49f8-9ec3-d380baa7a562)
 
-ERP Diagram is here:
+# **ERP Diagram is here:**
 ![image](https://github.com/user-attachments/assets/9fa75b98-7f69-466f-8c5a-6368bb864cb4)
 
-Test Script is here:
+# **Test Script is here:**
 [commands.zip](https://github.com/user-attachments/files/18223061/commands.zip)
 
-Video Presentation: Coming soon . . . in process
+# **Video Presentation:** Coming soon . . . in process
 
 JAR file goes as follows:
 
