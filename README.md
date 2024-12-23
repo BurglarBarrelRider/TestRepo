@@ -86,7 +86,7 @@ Baiel: Writing documentation, minor changes to the code (Controller, and UI) and
 # **Test Script is here:**
 [commands.zip](https://github.com/user-attachments/files/18223061/commands.zip)
 
-# **Video Presentation:** Coming soon . . . in process
+# **Video Presentation:** https://youtu.be/uOHNf-FVnU4
 
 JAR file goes as follows:
 
